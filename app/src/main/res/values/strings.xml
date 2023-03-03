@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FIAP ESG</string>
+    <string name="login">Login</string>
+    <string name="email">Your mail</string>
+    <string name="senha">Password</string>
+    <string name="esg">Environmental | Social | Governance </string>
+    <string name="novoUsuario">Register New User</string>
+    <string name="turma">2TINOA</string>
+    <string name="nome">Name:</string>
+    <string name="salvar">Save</string>
+    <string name="titulo">Register New User</string>
+</resources>

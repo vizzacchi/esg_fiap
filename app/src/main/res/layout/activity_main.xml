@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#FBE9E7"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txvIMC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/app_name"
+        android:textColor="@color/imc"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txvCalculadora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/esg"
+        android:textAlignment="viewEnd"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/txvIMC"
+        app:layout_constraintTop_toBottomOf="@+id/txvIMC" />
+
+    <TextView
+        android:id="@+id/txvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/login"
+        android:textAllCaps="true"
+        android:textColor="@color/imc"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvCalculadora" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:drawableStart="@android:drawable/ic_dialog_email"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/imc"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvLogin" />
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:drawableStart="@android:drawable/ic_lock_idle_lock"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/imc"
+        android:ems="10"
+        android:hint="@string/senha"
+        android:inputType="numberPassword"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/edtEmail"
+        app:layout_constraintStart_toStartOf="@+id/edtEmail"
+        app:layout_constraintTop_toBottomOf="@+id/edtEmail" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#F44336"
+        android:text="@string/login"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:cornerRadius="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/edtSenha"
+        app:layout_constraintStart_toStartOf="@+id/edtSenha"
+        app:layout_constraintTop_toBottomOf="@+id/edtSenha" />
+
+    <TextView
+        android:id="@+id/txvNovoUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/novoUsuario"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnLogin"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/black"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/txvPilon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="4dp"
+            android:gravity="end"
+            android:text="@string/turma"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
