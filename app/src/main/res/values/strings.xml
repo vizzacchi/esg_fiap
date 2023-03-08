@@ -9,4 +9,13 @@
     <string name="nome">Name:</string>
     <string name="salvar">Save</string>
     <string name="titulo">Register New User</string>
+    <string name="premio">Round Prize</string>
+    <string name="rankingGeral">General Ranking</string>
+    <string name="rankingMensal">Rouded Ranking</string>
+    <string name="horta">Vegetable garden</string>
+    <string name="alimentacao">Food</string>
+    <string name="reciclagem">Recycling</string>
+    <string name="voluntario">Voluntary</string>
+    <string name="atividadeFisica">Physical activity</string>
+    <string name="regulamento">Access the regulation</string>
 </resources>

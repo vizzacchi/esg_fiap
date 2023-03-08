@@ -9,4 +9,14 @@
     <string name="nome">Nome:</string>
     <string name="salvar">Salvar</string>
     <string name="titulo">Cadastrar Novo Usuário</string>
+    <string name="premio">Premiação da Rodada</string>
+    <string name="rankingGeral">Ranking Geral</string>
+    <string name="rankingMensal">Ranking da rodada</string>
+    <string name="horta">Horta</string>
+    <string name="alimentacao">Alimentação</string>
+    <string name="reciclagem">Reciclagem</string>
+    <string name="voluntario">Voluntário</string>
+    <string name="atividadeFisica">Atividade Física</string>
+    <string name="regulamento">Acesse o regulamento</string>
+
 </resources>

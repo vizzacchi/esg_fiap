@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".appActivity">
+
+    <Button
+        android:id="@+id/btnAtividadeFisica"
+
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="8dp"
+        android:background="@drawable/buttonshapeacessos"
+        android:drawableStart="@drawable/atividade_fisica_icon"
+        android:drawableEnd="@drawable/atividade_fisica_icon"
+        android:drawablePadding="10dp"
+        android:paddingEnd="10dp"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="4"
+        android:text="@string/atividadeFisica"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnVoluntario"
+        app:layout_constraintStart_toStartOf="@+id/btnAlimentacao"
+        app:layout_constraintTop_toBottomOf="@+id/btnAlimentacao" />
+
+    <Button
+        android:id="@+id/btnVoluntario"
+
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+
+        android:background="@drawable/buttonshapeacessos"
+        android:drawableStart="@drawable/ecology"
+        android:drawablePadding="10dp"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="4"
+        android:text="@string/voluntario"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnRankinMes"
+        app:layout_constraintTop_toTopOf="@+id/btnAlimentacao" />
+
+    <Button
+        android:id="@+id/btnAlimentacao"
+
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="8dp"
+        android:background="@drawable/buttonshapeacessos"
+        android:drawableStart="@drawable/alimentacao_icon"
+        android:drawablePadding="10dp"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="4"
+        android:text="@string/alimentacao"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/btnHorta"
+        app:layout_constraintTop_toBottomOf="@+id/btnHorta" />
+
+    <Button
+        android:id="@+id/btnPremios"
+
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/buttonshape"
+        android:drawableEnd="@drawable/gift"
+        android:drawablePadding="20dp"
+        android:drawableTint="#474545"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="1"
+        android:text="@string/premio"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRankinGeral"
+
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/buttonshaperg"
+        android:drawableEnd="@drawable/rank_geral"
+        android:drawablePadding="20dp"
+        android:drawableTint="#474545"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="1"
+        android:text="@string/rankingGeral"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPremios" />
+
+    <Button
+        android:id="@+id/btnRankinMes"
+
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/buttonshaperm"
+        android:drawableEnd="@drawable/rank_mensal"
+        android:drawablePadding="20dp"
+        android:drawableTint="#474545"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="1"
+        android:text="@string/rankingMensal"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRankinGeral" />
+
+    <Button
+        android:id="@+id/btnHorta"
+
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+
+        android:background="@drawable/buttonshapeacessos"
+        android:drawableStart="@drawable/horta_icon"
+        android:drawablePadding="10dp"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="4"
+        android:text="@string/horta"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/btnRankinMes"
+        app:layout_constraintTop_toTopOf="@+id/btnReciclagem" />
+
+    <Button
+        android:id="@+id/btnReciclagem"
+
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+
+        android:background="@drawable/buttonshapeacessos"
+        android:drawableStart="@drawable/reciclagem_icon"
+        android:drawablePadding="10dp"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="4"
+        android:text="@string/reciclagem"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnRankinMes"
+        app:layout_constraintTop_toBottomOf="@+id/btnRankinMes" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#2C2C2C"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:paddingEnd="20dp"
+            android:text="@string/regulamento"
+            android:textAlignment="textEnd"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
