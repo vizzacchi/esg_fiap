@@ -18,5 +18,12 @@
     <string name="voluntario">Voluntário</string>
     <string name="atividadeFisica">Atividade Física</string>
     <string name="regulamento">Acesse o regulamento</string>
+    <string name="card">Food4All | 27/06/2023</string>
+    <string name="cardDesc">Nos ajude neste difícil desafio que é o combate à fome, cadastre-se e leve alimento à milhares de famílias e pessoas necessitadas. Cadastre-se como um doador ou voluntário.</string>
+    <string name="btnCard">Ver Site</string>
+    <string name="btnPontos">180 pontos</string>
+    <string name="previous">Anterior</string>
+    <string name="next">Próximo</string>
+    <string name="atual">1</string>
 
 </resources>

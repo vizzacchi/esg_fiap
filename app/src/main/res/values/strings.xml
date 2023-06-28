@@ -18,4 +18,12 @@
     <string name="voluntario">Voluntary</string>
     <string name="atividadeFisica">Physical activity</string>
     <string name="regulamento">Access the regulation</string>
+    <string name="card">Food4All | 27/06/2023</string>
+    <string name="cardDesc">Help us in this difficult challenge that is the fight against hunger, register and bring food to thousands of families and people in need. Register as a donor or volunteer.</string>
+    <string name="btnCard">View Site</string>
+    <string name="btnPontos">180 points</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="atual">1</string>
+
 </resources>
